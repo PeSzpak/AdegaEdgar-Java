@@ -4,6 +4,90 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Adega {
+
+	static void simulacaoJantar(Scanner ler) {
+		System.out.print("Numero de convidados: ");
+		int pessoas = ler.nextInt();
+		ler.nextLine();
+
+		System.out.println("Tipo de prato principal:");
+		System.out.println("1 - Carne bovina");
+		System.out.println("2 - Carne suina");
+		System.out.println("3 - Massa");
+		System.out.println("4 - Frutos do mar");
+		System.out.println("5 - Ave");
+		System.out.print("Escolha: ");
+		int prato = ler.nextInt();
+		ler.nextLine();
+
+		String bebida, tipo, pratNome;
+		int garrafas;
+
+		switch (prato) {
+		case 1:
+			pratNome = "Carne bovina";
+			bebida = "Vinho";
+			tipo = "Tinto";
+			garrafas = (int) Math.ceil(pessoas / 2.0);
+			break;
+		case 2:
+			pratNome = "Carne suina";
+			bebida = "Vinho";
+			tipo = "Rose";
+			garrafas = (int) Math.ceil(pessoas / 2.0);
+			break;
+		case 3:
+			pratNome = "Massa";
+			bebida = "Vinho";
+			tipo = "Tinto ou Branco";
+			garrafas = (int) Math.ceil(pessoas / 2.0);
+			break;
+		case 4:
+			pratNome = "Frutos do mar";
+			bebida = "Espumante";
+			tipo = "Brut";
+			garrafas = (int) Math.ceil(pessoas / 3.0);
+			break;
+		case 5:
+			pratNome = "Ave";
+			bebida = "Vinho";
+			tipo = "Branco";
+			garrafas = (int) Math.ceil(pessoas / 2.0);
+			break;
+		default:
+			System.out.println("Opcao invalida.");
+			return;
+		}
+
+		System.out.println();
+		System.out.println("Quantidade de pessoas: " + pessoas);
+		System.out.println("Tipo de prato: " + pratNome);
+		System.out.println();
+		System.out.println("Sugestao:");
+		System.out.println("Bebida: " + bebida);
+		System.out.println("Tipo: " + tipo);
+		System.out.println("Quantidade recomendada: " + garrafas + " garrafas");
+		System.out.println();
+
+		if (prato == 2) {
+			System.out.println("Dica: O vinho rose e versatil e harmoniza muito bem com");
+			System.out.println("carnes suinas, como lombo, costelinha e pernil.");
+			System.out.println("Prefira roses secos, com boa acidez e frescor.");
+		} else if (prato == 1) {
+			System.out.println("Dica: Vinhos tintos encorpados como Cabernet Sauvignon,");
+			System.out.println("Malbec ou Syrah sao excelentes com carnes bovinas grelhadas.");
+		} else if (prato == 3) {
+			System.out.println("Dica: Para massas com molho vermelho prefira tinto.");
+			System.out.println("Para massas com molho branco ou pesto, o branco e ideal.");
+		} else if (prato == 4) {
+			System.out.println("Dica: O espumante Brut e classico com frutos do mar.");
+			System.out.println("Sua acidez e borbulhas limpam o paladar entre cada garfada.");
+		} else if (prato == 5) {
+			System.out.println("Dica: Vinhos brancos como Chardonnay ou Sauvignon Blanc");
+			System.out.println("harmonizam muito bem com aves grelhadas ou assadas.");
+		}
+	}
+
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		ArrayList<Vinho> vinhos = new ArrayList<>();
@@ -20,6 +104,7 @@ public class Adega {
 			System.out.println("6 - Listar todos os produtos");
 			System.out.println("7 - Valor total da adega");
 			System.out.println("8 - Produto mais caro");
+			System.out.println("9 - Simular jantar");
 			System.out.println("0 - Sair");
 			System.out.print("Escolha: ");
 			System.out.println();
@@ -251,16 +336,20 @@ public class Adega {
 				for (Vinho v : vinhos) {
 					if (v.getPreco() > maiorPreco) {
 						maiorPreco = v.getPreco();
-						maisCaro = "Vinho: " + v.getNome() + " | Preco: R$ " + v.getPreco();
+						maisCaro = "Vinho: " + v.getNome() + " | Preco: R$ " + String.format("%.2f", v.getPreco());
 					}
 				}
 				for (Espumante e : espumantes) {
 					if (e.getPreco() > maiorPreco) {
 						maiorPreco = e.getPreco();
-						maisCaro = "Espumante: " + e.getNome() + " | Preco: R$ " + e.getPreco();
+						maisCaro = "Espumante: " + e.getNome() + " | Preco: R$ " + String.format("%.2f", e.getPreco());
 					}
 				}
 				System.out.println("Produto mais caro: " + maisCaro);
+				break;
+
+			case 9:
+				simulacaoJantar(ler);
 				break;
 
 			case 0:
