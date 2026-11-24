@@ -1,0 +1,179 @@
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1
+1 - Vinho  |  2 - Espumante
+Escolha: 1
+Nome: Reserva da Serra
+Tipo: Tinto
+Uva: Merlot
+Regiao: Serra Gaucha
+Quantidade: 6
+Preco: 89,90
+Vinho cadastrado com sucesso!
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+1
+1 - Vinho  |  2 - Espumante
+Escolha: 2
+Nome: Aurora do Vale
+Tipo: Brut
+Uva: Chardonnay
+Regiao: Vale dos Vinhedos
+Quantidade: 4
+Preco: 64,50
+Espumante cadastrado com sucesso!
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+6
+--- Vinhos ---
+Vinho: Reserva da Serra | Tipo: Tinto | Uva: Merlot | Região: Serra Gaucha | Quantidade: 6 | Preco: R$ 89.9
+--- Espumantes ---
+Espumante: Aurora do Vale | Tipo: Brut | Uva: Chardonnay | Região: Vale dos Vinhedos | Quantidade: 4 | Preco: R$ 64.5
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+3
+1 - Vinho  |  2 - Espumante
+Escolha: 1
+0 - Vinho: Reserva da Serra | Tipo: Tinto | Uva: Merlot | Região: Serra Gaucha | Quantidade: 6 | Preco: R$ 89.9
+Indice: 0
+Uma garrafa de Reserva da Serra foi servida!
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+4
+1 - Vinho  |  2 - Espumante
+Escolha: 1
+Nome: serra
+Vinho: Reserva da Serra | Tipo: Tinto | Uva: Merlot | Região: Serra Gaucha | Quantidade: 5 | Preco: R$ 89.9
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+7
+Valor total da adega: R$ 707,50
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+8
+Produto mais caro: Vinho: Reserva da Serra | Preco: R$ 89,90
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+9
+Numero de convidados: 7
+Tipo de prato principal:
+1 - Carne bovina
+2 - Carne suina
+3 - Massa
+4 - Frutos do mar
+5 - Ave
+Escolha: 1
+
+Quantidade de pessoas: 7
+Tipo de prato: Carne bovina
+
+Sugestao:
+Bebida: Vinho
+Tipo: Tinto
+Quantidade recomendada: 4 garrafas
+
+Dica: Vinhos tintos encorpados como Cabernet Sauvignon,
+Malbec ou Syrah sao excelentes com carnes bovinas grelhadas.
+=-=-=-=-=-= Adega POO =-=-=-=-=-=
+1 - Cadastrar
+2 - Listar
+3 - Servir
+4 - Buscar por nome
+5 - Remover
+6 - Listar todos os produtos
+7 - Valor total da adega
+8 - Produto mais caro
+9 - Simular jantar
+0 - Sair
+Escolha: 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+0
+Encerrando sistema...
